@@ -16,9 +16,7 @@
   "paths": {
     "/{operation}": {
       "get": {
-        "tags": [
-          "Simple Calculator"
-        ],
+        "tags": ["Simple Calculator"],
         "summary": "Calculate",
         "description": "Calculates the expression using the specified operation.",
         "operationId": "Calculate",
@@ -80,21 +78,14 @@
     "schemas": {
       "OperationType": {
         "title": "OperationType",
-        "enum": [
-          "SUM",
-          "SUBTRACT",
-          "MULTIPLY",
-          "DIVIDE"
-        ],
+        "enum": ["SUM", "SUBTRACT", "MULTIPLY", "DIVIDE", "MODULO"],
         "type": "string",
         "description": "Possible operators are sum, subtract, multiply, divide",
         "example": "SUM"
       }
     }
   },
-  "security": [
-    {}
-  ],
+  "security": [{}],
   "tags": [
     {
       "name": "Simple Calculator",
