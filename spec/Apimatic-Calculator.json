@@ -81,7 +81,7 @@
         "enum": ["SUM", "SUBTRACT", "MULTIPLY", "DIVIDE", "MODULO"],
         "type": "string",
         "description": "Possible operators are sum, subtract, multiply, divide",
-        "example": "SUM"
+        "example": "MODULO"
       }
     }
   },
